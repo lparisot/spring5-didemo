@@ -1,7 +1,9 @@
 package com.lpa.didemo.controllers;
 
 import com.lpa.didemo.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
     private GreetingService greetingService;
 
