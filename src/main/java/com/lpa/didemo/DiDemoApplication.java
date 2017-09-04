@@ -2,7 +2,7 @@ package com.lpa.didemo;
 
 import com.lpa.didemo.controllers.AController;
 import com.lpa.didemo.controllers.ConstructorInjectedController;
-import com.lpa.didemo.controllers.GetterInjectedController;
+import com.lpa.didemo.controllers.SetterInjectedController;
 import com.lpa.didemo.controllers.PropertyInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,7 +19,7 @@ public class DiDemoApplication {
 		controller.hello();
 
 		System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
-		System.out.println(ctx.getBean(GetterInjectedController.class).sayHello());
+		System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
 		System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
 	}
 }
