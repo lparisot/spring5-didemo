@@ -1,0 +1,29 @@
+# some comment
+name: John
+
+names: # inline comment
+  - John
+  - Paul
+  - Ringo
+
+pound_sign: "#"
+
+book:
+  author: Joe Buck
+  publisher: random house
+
+truth: yes
+another_truth: True
+more_truth: true
+false: no # No, false, False
+
+string_val: "This is it's quote"
+colon_string: "my courses: on two three"
+include_new_lines: |
+  abc def
+  ghi jkl
+  mno pqr
+ignore_new_lines: >
+  this is
+  just on long
+  string
