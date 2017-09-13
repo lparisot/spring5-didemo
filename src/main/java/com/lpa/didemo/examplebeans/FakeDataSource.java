@@ -4,6 +4,7 @@ public class FakeDataSource {
     private String user;
     private String password;
     private String url;
+    private String other;
 
     public String getUser() {
         return user;
@@ -27,5 +28,13 @@ public class FakeDataSource {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getOther() {
+        return other;
+    }
+
+    public void setOther(String other) {
+        this.other = other;
     }
 }
